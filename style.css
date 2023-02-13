@@ -1,0 +1,85 @@
+.main{
+    width: 100%;
+    height: 200vh;
+    background-color: #FBF7F7;
+}
+.title1{
+    font-size: 4em;
+    font-family: mainf;
+    color: black;
+    
+}
+.navirsm{
+    margin-left: 10%;
+}
+.navirsm1{
+    margin-left: 50%;
+    font-size: 2em;
+    font-family: mainf;
+}
+.navirsm3{
+    margin-left: 120%;
+
+}
+.cart1{
+    font-size: 2.5em;
+    color: black;
+}
+
+.girl1{
+    width: 90%;
+    margin-left: 5%;
+    border-radius: 50px;
+    margin-top: 2%;
+
+}
+.itemlist1{
+    margin-top: 1%;
+    padding: 3%;
+}
+.imgsize{
+    width: 100%;
+}
+
+.sale2{
+    margin-left: 5%;
+    margin-top: 2%;
+    font-family: mainf;
+}
+.cardtxt{
+    font-family: mainf;
+    font-size: 2em;
+
+}
+
+.bttt2{
+    text-align: center;
+}
+
+
+
+@font-face {
+    font-family: mainf;
+    src: url(fonts/Lobster-Regular.ttf);
+  }
+
+  @media  (min-width:480px) and (max-width:1000px) {
+    .navirsm1{
+        margin-left: 0%;
+        font-size: 2em;
+        font-family: mainf;
+    }
+    .navirsm3{
+        margin-left: 0%;
+    
+    }
+    .girl1{
+        width: 90%;
+
+        margin-left: 5%;
+        border-radius: 50px;
+        margin-top: 2%;
+    
+    }
+    
+  }
